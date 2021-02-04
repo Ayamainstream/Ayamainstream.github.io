@@ -1,0 +1,163 @@
+*{
+  font: italic small-caps bold 16px/2 cursive;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 60%;
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+  padding: 0rem 4rem;
+  background-color: #2c786c;
+  position: fixed;
+  z-index: 10000;
+}
+
+header nav ul li a {
+  font-size: 2rem;
+  border-radius: 3rem;
+  color: #004445;
+  margin-right: 2rem;
+}
+
+header nav ul li a:hover {
+  color: #f8b400;
+}
+
+header .logo h2 {
+  font-size: 4rem;
+  font-family: 'Patrick Hand', cursive;
+  color: #f8b400;
+}
+
+#preview .prew{
+  position: relative;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+  background-color: #fff;
+}
+
+#preview .prew h1{
+  font-weight: bold;
+  padding: 5rem 0 2rem 0;
+  font-size: 5rem;
+  color: #2c786c;
+  font-weight: bold;
+}
+
+#preview .prew img{
+  position:relative;
+  display:inline-block;
+  height: 500px;
+  padding: 3rem;
+}
+
+#faq-box{
+  display: flex;
+  padding: 3rem 3rem 5rem 7rem;
+}
+
+#faq-box .head-text h1{
+  padding: 9rem 9rem 0 0;
+  font-weight: bold;
+  font-size: 3.5rem;
+  color: #2c786c;
+  font-weight: bold;
+}
+
+#faq-box .head-text h2{
+  color: #f58634;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+#faq-box .box{
+  width: 80rem;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 1px 2px 4px rgba(0,0,0,.3);
+}
+
+#faq-box .box .heading{
+  font-size: 2rem;
+  background: #f58634;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+#faq-box .faqs{
+  padding: 0px 20px 20px;
+}
+
+::-webkit-details-marker{
+  float: right;
+  margin-top: 3px;
+}
+
+details{
+  background: #f6f6f6;
+  padding: 10px 20px;
+  border-radius: 7px;
+  margin-top: 20px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+details summary{
+  font-size: 2rem;
+  color: #2c786c;
+  outline: none;
+}
+
+details p{
+  font-size: 2rem;
+  color: #f58634;
+}
+
+#footer {
+  display: grid;
+  place-items: center;
+  background: #333;
+}
+
+#footer .logo {
+  text-decoration: none;
+}
+
+#footer .logo h1 {
+  font-size: 7rem;
+  font-family: 'Patrick Hand', cursive;
+  color: #f8b400;
+  margin: 2rem 0;
+}
+
+#footer .icons {
+  margin: 2rem 0;
+}
+
+#footer .icons a {
+  text-decoration: none;
+  font-size: 3rem;
+  margin: 0 1rem;
+  color: #E5E5E5;
+}
+
+#footer .icons a:hover {
+  color: #766A69;
+}
+
+#footer h1 {
+  margin: 1rem 0;
+  font-size: 2rem;
+  color: #E5E5E5;
+}
+
+#footer h1 span {
+  color: orange;
+}
